@@ -3,18 +3,11 @@
 
 # TODO
 
-US el van írva.
-
-Primary actor
-
 Részletes leírás aktorra vonatkozik nem a felhasználóra így ezt ki kell cserélni a rászoruló menekültre.
 
 Egyik ágat érdemes lett volna szétszedni hogy főágba szedni.
 
 mi történik a felületene,
-
-
-
 
 
 ## Csapattagok - bbm
@@ -28,45 +21,56 @@ mi történik a felületene,
 
 ## Aktorok
 
-Rászoruló menekült: Az az ukrán menekült, aki igénybe kívánja venni a rendszeres étkezési segélycsomagot.
+Primary actor: Rászoruló menekült: Az az ukrán menekült, aki igénybe kívánja venni a rendszeres étkezési segélycsomagot.
 
 ## Use case-ek
 
-### US1: Menekült bejelentkeztetése
+### UC1: Menekült bejelentkeztetése
 
 #### Aktor: 
-Rászoruló menekült
+Primary actor: Rászoruló menekült
 
 #### Rövid leírás: 
 A már regisztrált rászoruló menekült megadja a regisztrációkor megadott felhasználó nevét és jelszavát. Ezután hozzáfér a rendszer szolgáltatásaihoz.
 
-### US2: Élelmiszerellátás és felajánlások keresése
+### UC2: Élelmiszerellátás és felajánlások keresése
 
-#### Aktor: 
-Rászoruló menekült
-
-#### Rövid leírás:
-A már bejelentkezett felhasználó a rendszerben eltárolt élelmiszer felajánlások és étkezési lehetőségek között kereshet és megtekintheti annak a részleteit.
+#### Aktor:
+Primary actor: Rászoruló menekült
 
 #### Részletes leírás:
 
-1. A felhasználó elindítja az élelmiszer ellátási szolgáltatások közötti keresést
-2. Bejelölheti a felhasználó, hogy: (ide az kell h a rednszer megjelenítui)
-    - rendszeres étkeztetést, 
-    - vagy egyszeri tartós élelmiszer csomagot szeretne választani.
-    Abban az esetben, ha az egyszeri tartós élelmiszert választja, akkor a folyamat az `5.` pontnál folytatódik.
-3. Amennyiben a rendszeres étkeztetést választja a felhasználó, akkor az alábbiak közül választhat: (a felhasználó kiválasztja)(ki kell jelölni hogy elágazik és ha oda ágazik akkor ezt jelenítni meg és stb.) a menekült liválaszt
-    - reggeli,
-    - ebéd,
-    - vacsora.
-4. Ezek után a felhasználó kiválaszthatja az étkeztetés jellegét is, hogy: (a menekült kiválasztja majd a rednszer megjeleníti hogy milyen opciót választhat.) 
-(Ügyesen ki kell találni a felhasználói felületet, mert az így nem annyira eldönthető nem jól specifikált?!)
-    - hideg,
-    - vagy meleg étkezést kíván igénybe venni.
+1. A Rászoruló menekült elindítja az élelmiszer ellátási szolgáltatások közötti keresés funkciót.
+2. A Rendszer megjeleníti a felületet, ahol az alábbiak közül lehet választani:
+    - rendszeres étkeztetést
+    - vagy egyszeri tartós élelmiszer csomagot szeretne választani
+3. Ha a Rászoruló menekült kiválasztja a rendszeres étkeztetést.
+4. A Rendszer megjeleníti azt a felület, ahol az alábbi étkezések közül lehet választani:
+    - reggeli, ami csak hideg lehet
+    - ebéd, ami lehet hideg és meleg is
+    - vacsora, ami lehet hideg és meleg is
+5. A Rászoruló menekült kiválasztja a számára megfelelő étkezést és annak jellegét.
+6. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan legördülő listákból kiválasztható, hogy hol szeretné igénybe venni vagy átvenni a felajánlást megyére, városra vagy városrészre lebontva.
+7. A Rászoruló menekült kiválasztja a számára megfelelő helyet vagy üresen hagyja és továbblép.
+8. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan kiválaszthatja, hogy mely napokon szeretné az étkezéseket igénybe venni.
+9. A Rászoruló menekült kiválasztja a számára megfelelő időpontot vagy időintervallumot vagy üresen hagyja és továbblép.
+10. A Rendszer a megjeleníti egy listában a megadott feltételeknek megfelelő ajánlatokat.
+11. A Rászoruló menekült a listából kiválasztja a számára legmegfelelőbb ajánlatot.
+12. Az ajánlat kiválasztása után a Rendszer megjeleníti a felajánló elérhetőségeit.
 
-5. Opcionálisan a felhasználó legördülő listákból kiválaszthatja, hogy hol szeretné igénybe venni vagy átvenni a felajánlást megyére, városra vagy városrészre lebontva. 
-Le kell írni hogy ha előbb mit választott akkor a rendszer lekördülő alapján meghatározza mit kell megjelenni és megjeleníti az eredményeket, majd a felhasználó kiválasztja ami kell neki.
-6. Opcionálisan a felhasználó kiválaszthatja, hogy mely napokon szeretné a rendszeres étkeztetést igénybe venni vagy melyik nap szeretné átvenni az egyszeri élelmiszer csomagot.
+13. Ha a Rászoruló menekült kiválasztja az egyszeri tartós élelmiszer csomagot.
+14. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan legördülő listákból kiválasztható, hogy hol szeretné igénybe venni vagy átvenni a felajánlást megyére, városra vagy városrészre lebontva.
+15. A Rászoruló menekült kiválasztja a számára megfelelő helyet vagy üresen hagyja és továbblép.
+16. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan kiválaszthatja, hogy mely napon szeretné az étkeziési csomagot átvenni.
+17. A Rászoruló menekült kiválasztja a számára megfelelő időpontot vagy üresen hagyja és továbblép.
+18. A Rendszer a megjeleníti egy listában a megadott feltételeknek megfelelő ajánlatokat.
+19. A Rászoruló menekült a listából kiválasztja a számára legmegfelelőbb ajánlatot.
+20. Az ajánlat kiválasztása után a Rendszer megjeleníti a felajánló elérhetőségeit.
 
-7. Amennyiben a rendszer hozott találatot a felhasználó által megadott feltételek mellett, akkor az így létrejött listából kiválaszthatja a számára legmegfelelőbb ajánlatot. Amennyiben nincs találat vagy a felhasználó módosítani szeretné a keresési feltételeket, akkor visszadobja a `2.` ponthoz.
-8. Az ajánlat kiválasztása után a felhasználónak megjelennek a felajánló elérhetőségei. 
+##### Extansions
+10. A Rendszer jelzi, hogy a Rászoruló menekült által kiválasztott feltételek mellett nincs találat az ajánlatok között és új keresési feltételeket kell megadnia, majd a use case a 2. lépéssel folytatódik.
+11. A Rászoruló menekült bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
+18. A Rendszer jelzi, hogy a Rászoruló menekült által kiválasztott feltételek mellett nincs találat az ajánlatok között és új keresési feltételeket kell megadnia, majd a use case a 2. lépéssel folytatódik.
+19. A Rászoruló menekült bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
+
+## Aktivációs diagram
