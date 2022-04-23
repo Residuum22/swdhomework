@@ -1,16 +1,7 @@
 # Szoftvertervezés házifeladat
 
-
-# TODO
-
-Részletes leírás aktorra vonatkozik nem a felhasználóra így ezt ki kell cserélni a rászoruló menekültre.
-
-Egyik ágat érdemes lett volna szétszedni hogy főágba szedni.
-
-mi történik a felületene,
-
-
 ## Csapattagok - bbm
+
 - Krisztik Bálint
 - Mihalik Márk
 - Vezse Botond
@@ -27,18 +18,21 @@ Primary actor: Rászoruló menekült: Az az ukrán menekült, aki igénybe kív�
 
 ### UC1: Menekült bejelentkeztetése
 
-#### Aktor: 
+#### UC1 Aktor 
+
 Primary actor: Rászoruló menekült
 
-#### Rövid leírás: 
+#### Rövid leírás
+
 A már regisztrált rászoruló menekült megadja a regisztrációkor megadott felhasználó nevét és jelszavát. Ezután hozzáfér a rendszer szolgáltatásaihoz.
 
 ### UC2: Élelmiszerellátás és felajánlások keresése
 
-#### Aktor:
+#### UC2 Aktor
+
 Primary actor: Rászoruló menekült
 
-#### Részletes leírás:
+#### Részletes leírás
 
 1. A Rászoruló menekült elindítja az élelmiszer ellátási szolgáltatások közötti keresés funkciót.
 2. A Rendszer megjeleníti a felületet, ahol az alábbiak közül lehet választani:
@@ -67,7 +61,8 @@ Primary actor: Rászoruló menekült
 19. A Rászoruló menekült a listából kiválasztja a számára legmegfelelőbb ajánlatot.
 20. Az ajánlat kiválasztása után a Rendszer megjeleníti a felajánló elérhetőségeit.
 
-##### Extansions
+#### Extansions
+
 10. A Rendszer jelzi, hogy a Rászoruló menekült által kiválasztott feltételek mellett nincs találat az ajánlatok között és új keresési feltételeket kell megadnia, majd a use case a 2. lépéssel folytatódik.
 11. A Rászoruló menekült bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
 18. A Rendszer jelzi, hogy a Rászoruló menekült által kiválasztott feltételek mellett nincs találat az ajánlatok között és új keresési feltételeket kell megadnia, majd a use case a 2. lépéssel folytatódik.
