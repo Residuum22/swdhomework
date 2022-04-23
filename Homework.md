@@ -39,10 +39,10 @@ Primary actor: Rászoruló menekült
     - rendszeres étkeztetést
     - vagy egyszeri tartós élelmiszer csomagot szeretne választani
 3. Ha a Rászoruló menekült kiválasztja a rendszeres étkeztetést.
-4. A Rendszer megjeleníti azt a felület, ahol az alábbi étkezések közül lehet választani:
-    - reggeli, ami csak hideg lehet
-    - ebéd, ami lehet hideg és meleg is
-    - vacsora, ami lehet hideg és meleg is
+4. A Rendszer megjeleníti azt a felület, ahol az alábbi étkeztetések közül lehet választani:
+    - reggeli, ami csak hideg étkeztetés lehet
+    - ebéd, ami lehet hideg és meleg étkeztetés is
+    - vacsora, ami lehet hideg és meleg étkeztetés is
 5. A Rászoruló menekült kiválasztja a számára megfelelő étkezést és annak jellegét.
 6. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan legördülő listákból kiválasztható, hogy hol szeretné igénybe venni vagy átvenni a felajánlást megyére, városra vagy városrészre lebontva.
 7. A Rászoruló menekült kiválasztja a számára megfelelő helyet vagy üresen hagyja és továbblép.
