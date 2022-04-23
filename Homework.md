@@ -6,9 +6,12 @@
 - Mihalik Márk
 - Vezse Botond
 
+<div style="page-break-after: always;"></div>
+
 ## Feladatkiírás
 
 **9. Élelmiszer, ill. étkezési lehetőség keresése a felajánlott támogatások között.**
+
 
 ## Aktorok
 
@@ -39,7 +42,7 @@ Primary actor: Rászoruló menekült
     - rendszeres étkeztetést
     - vagy egyszeri tartós élelmiszer csomagot szeretne választani
 3. Ha a Rászoruló menekült kiválasztja a rendszeres étkeztetést.
-4. A Rendszer megjeleníti azt a felület, ahol az alábbi étkeztetések közül lehet választani:
+4. A Rendszer megjeleníti azt a felület, ahol az alábbi étkezések közül lehet választani:
     - reggeli, ami csak hideg étkeztetés lehet
     - ebéd, ami lehet hideg és meleg étkeztetés is
     - vacsora, ami lehet hideg és meleg étkeztetés is
@@ -55,17 +58,32 @@ Primary actor: Rászoruló menekült
 13. Ha a Rászoruló menekült kiválasztja az egyszeri tartós élelmiszer csomagot.
 14. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan legördülő listákból kiválasztható, hogy hol szeretné igénybe venni vagy átvenni a felajánlást megyére, városra vagy városrészre lebontva.
 15. A Rászoruló menekült kiválasztja a számára megfelelő helyet vagy üresen hagyja és továbblép.
-16. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan kiválaszthatja, hogy mely napon szeretné az étkeziési csomagot átvenni.
+16. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan kiválaszthatja, hogy mely napon szeretné az étkezési csomagot átvenni.
 17. A Rászoruló menekült kiválasztja a számára megfelelő időpontot vagy üresen hagyja és továbblép.
 18. A Rendszer a megjeleníti egy listában a megadott feltételeknek megfelelő ajánlatokat.
 19. A Rászoruló menekült a listából kiválasztja a számára legmegfelelőbb ajánlatot.
 20. Az ajánlat kiválasztása után a Rendszer megjeleníti a felajánló elérhetőségeit.
 
-#### Extansions
+#### Extensions
 
 10. A Rendszer jelzi, hogy a Rászoruló menekült által kiválasztott feltételek mellett nincs találat az ajánlatok között és új keresési feltételeket kell megadnia, majd a use case a 2. lépéssel folytatódik.
 11. A Rászoruló menekült bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
 18. A Rendszer jelzi, hogy a Rászoruló menekült által kiválasztott feltételek mellett nincs találat az ajánlatok között és új keresési feltételeket kell megadnia, majd a use case a 2. lépéssel folytatódik.
 19. A Rászoruló menekült bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
 
-## Aktivációs diagram
+
+<div style="page-break-after: always;"></div>
+
+## Aktivációs Diagram
+
+![aktivacios](Aktiv%C3%A1ci%C3%B3s_Diagram.png)
+
+## System Sequence Diagram
+
+![ssd](ssd.drawio.png)
+
+<div style="page-break-after: always;"></div>
+
+## UseCase Diagram
+
+![usecase](UseCase_Diagram.png)
