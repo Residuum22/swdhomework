@@ -64,7 +64,7 @@ Primary actor: Rászoruló menekült
 18. A **Rászoruló menekült** bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
 
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-before: always;"></div>
 
 ## Aktivációs Diagram
 
@@ -79,3 +79,15 @@ Primary actor: Rászoruló menekült
 ## UseCase Diagram
 
 ![usecase](UseCase_Diagram.png)
+
+<div style="page-break-after: always;"></div>
+
+## Sequence Diagramm
+
+![sd](SequenceDiagram.png)
+
+<div style="page-break-after: always;"></div>
+
+## Design Class Diagramm
+
+![ad](DCD.png)
