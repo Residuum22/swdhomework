@@ -37,39 +37,31 @@ Primary actor: Rászoruló menekült
 
 #### Részletes leírás
 
-1. A Rászoruló menekült elindítja az élelmiszer ellátási szolgáltatások közötti keresés funkciót.
+1. A **Rászoruló menekült** elindítja az élelmiszer ellátási szolgáltatások közötti keresés funkciót.
 2. A Rendszer megjeleníti a felületet, ahol az alábbiak közül lehet választani:
     - rendszeres étkeztetést
     - vagy egyszeri tartós élelmiszer csomagot szeretne választani
-3. Ha a Rászoruló menekült kiválasztja a rendszeres étkeztetést.
+3. A **Rászoruló menekült** kiválasztja a rendszeres étkeztetést.
 4. A Rendszer megjeleníti azt a felület, ahol az alábbi étkezések közül lehet választani:
     - reggeli, ami csak hideg étkeztetés lehet
     - ebéd, ami lehet hideg és meleg étkeztetés is
     - vacsora, ami lehet hideg és meleg étkeztetés is
-5. A Rászoruló menekült kiválasztja a számára megfelelő étkezést és annak jellegét.
+5. A **Rászoruló menekült** kiválasztja a számára megfelelő étkezést és annak jellegét.
 6. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan legördülő listákból kiválasztható, hogy hol szeretné igénybe venni vagy átvenni a felajánlást megyére, városra vagy városrészre lebontva.
-7. A Rászoruló menekült kiválasztja a számára megfelelő helyet vagy üresen hagyja és továbblép.
-8. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan kiválaszthatja, hogy mely napokon szeretné az étkezéseket igénybe venni.
-9. A Rászoruló menekült kiválasztja a számára megfelelő időpontot vagy időintervallumot vagy üresen hagyja és továbblép.
+7. A **Rászoruló menekült** kiválasztja a számára megfelelő helyet vagy üresen hagyja és továbblép.
+8. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan kiválaszthatja, hogy mely napon/napokon szeretné a szolgáltatést igénybe venni.
+9. A **Rászoruló menekült** kiválasztja a számára megfelelő időpontot vagy időintervallumot vagy üresen hagyja és továbblép.
 10. A Rendszer a megjeleníti egy listában a megadott feltételeknek megfelelő ajánlatokat.
-11. A Rászoruló menekült a listából kiválasztja a számára legmegfelelőbb ajánlatot.
+11. A **Rászoruló menekült** a listából kiválasztja a számára legmegfelelőbb ajánlatot.
 12. Az ajánlat kiválasztása után a Rendszer megjeleníti a felajánló elérhetőségeit.
-
-13. Ha a Rászoruló menekült kiválasztja az egyszeri tartós élelmiszer csomagot.
-14. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan legördülő listákból kiválasztható, hogy hol szeretné igénybe venni vagy átvenni a felajánlást megyére, városra vagy városrészre lebontva.
-15. A Rászoruló menekült kiválasztja a számára megfelelő helyet vagy üresen hagyja és továbblép.
-16. A Rendszer megjeleníti, azt a felületet, ahol opcionálisan kiválaszthatja, hogy mely napon szeretné az étkezési csomagot átvenni.
-17. A Rászoruló menekült kiválasztja a számára megfelelő időpontot vagy üresen hagyja és továbblép.
-18. A Rendszer a megjeleníti egy listában a megadott feltételeknek megfelelő ajánlatokat.
-19. A Rászoruló menekült a listából kiválasztja a számára legmegfelelőbb ajánlatot.
-20. Az ajánlat kiválasztása után a Rendszer megjeleníti a felajánló elérhetőségeit.
 
 #### Extensions
 
+3. A **Rászoruló menekült** kiválasztja az egyszeri tartós élelmiszer csomagot, majd a use case a 6. lépéssel folytatódik
 10. A Rendszer jelzi, hogy a Rászoruló menekült által kiválasztott feltételek mellett nincs találat az ajánlatok között és új keresési feltételeket kell megadnia, majd a use case a 2. lépéssel folytatódik.
-11. A Rászoruló menekült bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
-18. A Rendszer jelzi, hogy a Rászoruló menekült által kiválasztott feltételek mellett nincs találat az ajánlatok között és új keresési feltételeket kell megadnia, majd a use case a 2. lépéssel folytatódik.
-19. A Rászoruló menekült bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
+11. A **Rászoruló menekült** bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
+17. A Rendszer jelzi, hogy a Rászoruló menekült által kiválasztott feltételek mellett nincs találat az ajánlatok között és új keresési feltételeket kell megadnia, majd a use case a 2. lépéssel folytatódik.
+18. A **Rászoruló menekült** bejelöli, hogy meg akarja változtatni a keresési feltételeket, majd a use case a 2. lépéssel folytatódik.
 
 
 <div style="page-break-after: always;"></div>
